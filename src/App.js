@@ -25,7 +25,7 @@ class App extends Component {
       method: 'GET',
       headers: {
         Accept: 'application/json',
-        Authorization: '744916cd-fdf4-41b6-a26b-49c34daa61a4', // Read-only key
+        Authorization: process.env.REACT_APP_READ_ONLY_KEY,
       },
     };
     fetch('https://api.opennode.com/v1/account/balance', options)
@@ -40,7 +40,7 @@ class App extends Component {
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',
-        Authorization: 'eeb3b252-a916-4b51-9e94-4891a43d4c19', // Invoices key
+        Authorization: process.env.REACT_APP_INVOICES_KEY,
       },
       body: JSON.stringify({
         order_id: "Merchant's internal order ID",
@@ -73,13 +73,12 @@ class App extends Component {
   }
 
   lnUrlWithdrawal() {
-    // 7a2f5b2a-9a98-40fd-bb4d-9b1638bc4b13
     const options = {
       method: 'POST',
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',
-        Authorization: '7a2f5b2a-9a98-40fd-bb4d-9b1638bc4b13', // Invoices key
+        Authorization: process.env.REACT_APP_WITHDRAW_KEY,
       },
       body: JSON.stringify({
         order_id: "Merchant's internal order ID",
@@ -99,10 +98,6 @@ class App extends Component {
       .catch((err) => console.error(err));
 
     this.setState({ lnUrlHeader: 'Claim' });
-  }
-
-  handleClick() {
-    window.open(`${this.state.lnUrl}`);
   }
 
   render() {
