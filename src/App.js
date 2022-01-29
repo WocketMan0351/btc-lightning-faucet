@@ -111,30 +111,22 @@ class App extends Component {
           <div style={{ alignItems: 'center', margin: 20 }}>
             <h3>{'LN Faucet contains ' + sats + ' sats'}</h3>
             <div>
-              <button onClick={() => this.getBalances()}>
-                Refresh Balance
-              </button>
+              <button onClick={() => this.getBalances()}>Refresh Balance</button>
             </div>
 
             <div>
               <TextInput
                 placeHolder='Amount (sats)'
-                handleChange={(event) =>
-                  this.setState({ amount: event.target.value })
-                }
+                handleChange={(event) => this.setState({ amount: event.target.value })}
               />
             </div>
 
             <div>
-              <button onClick={() => this.createInvoice()}>
-                Donate sats to faucet
-              </button>
+              <button onClick={() => this.createInvoice()}>Donate sats to faucet</button>
             </div>
 
             <div>
-              <button onClick={() => this.lnUrlWithdrawal()}>
-                Claim 10 sats!
-              </button>
+              <button onClick={() => this.lnUrlWithdrawal()}>Claim 10 sats!</button>
             </div>
 
             <div
