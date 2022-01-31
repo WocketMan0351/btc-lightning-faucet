@@ -86,8 +86,8 @@ class App extends Component {
         description: 'Test Invoice',
         customer_email: 'cworthen777@hotmail.com',
         currency: 'BTC',
-        min_amt: 10,
-        max_amt: 10,
+        min_amt: 2,
+        max_amt: 2,
         callback_url: 'https://example.com/webhook/opennode',
       }),
     };
@@ -126,7 +126,7 @@ class App extends Component {
             </div>
 
             <div>
-              <button onClick={() => this.lnUrlWithdrawal()}>Claim 10 sats!</button>
+              <button onClick={() => this.lnUrlWithdrawal()}>Claim 2 sats!</button>
             </div>
 
             <div
