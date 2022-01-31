@@ -45,7 +45,7 @@ class App extends Component {
       body: JSON.stringify({
         order_id: "Merchant's internal order ID",
         ttl: 1440,
-        description: 'Test Invoice',
+        description: '',
         amount: this.state.amount,
         customer_email: 'cworthen777@hotmail.com',
         currency: 'BTC',
