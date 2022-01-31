@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/btc-lightning-faucet/static/css/main.21730999.chunk.css",
-    "main.js": "/btc-lightning-faucet/static/js/main.ff817d64.chunk.js",
-    "main.js.map": "/btc-lightning-faucet/static/js/main.ff817d64.chunk.js.map",
+    "main.js": "/btc-lightning-faucet/static/js/main.116f89ba.chunk.js",
+    "main.js.map": "/btc-lightning-faucet/static/js/main.116f89ba.chunk.js.map",
     "runtime-main.js": "/btc-lightning-faucet/static/js/runtime-main.81231d2c.js",
     "runtime-main.js.map": "/btc-lightning-faucet/static/js/runtime-main.81231d2c.js.map",
     "static/js/2.bb4edb59.chunk.js": "/btc-lightning-faucet/static/js/2.bb4edb59.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.81231d2c.js",
     "static/js/2.bb4edb59.chunk.js",
     "static/css/main.21730999.chunk.css",
-    "static/js/main.ff817d64.chunk.js"
+    "static/js/main.116f89ba.chunk.js"
   ]
 }
