@@ -83,7 +83,7 @@ class App extends Component {
       body: JSON.stringify({
         order_id: "Merchant's internal order ID",
         ttl: 1440,
-        description: 'Thanks for doxxing yourself by draining my faucet ^.^',
+        description: 'Thanks for doxxing yourself ^.^',
         customer_email: 'cworthen777@hotmail.com',
         currency: 'BTC',
         min_amt: 1,
