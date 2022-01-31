@@ -83,11 +83,11 @@ class App extends Component {
       body: JSON.stringify({
         order_id: "Merchant's internal order ID",
         ttl: 1440,
-        description: 'Test Invoice',
+        description: 'Thanks for doxxing yourself by draining my faucet ^.^',
         customer_email: 'cworthen777@hotmail.com',
         currency: 'BTC',
-        min_amt: 2,
-        max_amt: 2,
+        min_amt: 1,
+        max_amt: 1,
         callback_url: 'https://example.com/webhook/opennode',
       }),
     };
@@ -126,7 +126,7 @@ class App extends Component {
             </div>
 
             <div>
-              <button onClick={() => this.lnUrlWithdrawal()}>Claim 2 sats!</button>
+              <button onClick={() => this.lnUrlWithdrawal()}>Claim 1 sat!</button>
             </div>
 
             <div
