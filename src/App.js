@@ -1,7 +1,8 @@
 import { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { TextInput } from './components/text-input.components';
+import TextInput from './components/text-input.components';
+import CustomButton from './components/custom-button.component';
 
 class App extends Component {
   constructor() {
@@ -35,6 +36,11 @@ class App extends Component {
   }
 
   createInvoice() {
+    if (this.state.amount == '') {
+      this.setState({
+        createInvoiceHeader: 'Please enter an amount (in sats) first',
+      });
+    }
     const options = {
       method: 'POST',
       headers: {
@@ -110,23 +116,25 @@ class App extends Component {
 
           <div style={{ alignItems: 'center', margin: 20 }}>
             <h3>{'LN Faucet contains ' + sats + ' sats'}</h3>
-            <div>
+            <div className='buttons'>
               <button onClick={() => this.getBalances()}>Refresh Balance</button>
             </div>
 
-            <div>
+            <div className='buttons'>
               <TextInput
                 placeHolder='Amount (sats)'
                 handleChange={(event) => this.setState({ amount: event.target.value })}
               />
             </div>
 
-            <div>
+            <div className='buttons'>
               <button onClick={() => this.createInvoice()}>Donate sats to faucet</button>
             </div>
 
-            <div>
-              <button onClick={() => this.lnUrlWithdrawal()}>Claim 1 sat!</button>
+            <div className='buttons'>
+              <CustomButton onClick={() => this.lnUrlWithdrawal()}>
+                Claim 1 sat!
+              </CustomButton>
             </div>
 
             <div
