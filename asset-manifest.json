@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/btc-lightning-faucet/static/css/main.21730999.chunk.css",
-    "main.js": "/btc-lightning-faucet/static/js/main.39e90f0a.chunk.js",
-    "main.js.map": "/btc-lightning-faucet/static/js/main.39e90f0a.chunk.js.map",
-    "runtime-main.js": "/btc-lightning-faucet/static/js/runtime-main.81231d2c.js",
-    "runtime-main.js.map": "/btc-lightning-faucet/static/js/runtime-main.81231d2c.js.map",
-    "static/js/2.bb4edb59.chunk.js": "/btc-lightning-faucet/static/js/2.bb4edb59.chunk.js",
-    "static/js/2.bb4edb59.chunk.js.map": "/btc-lightning-faucet/static/js/2.bb4edb59.chunk.js.map",
-    "static/js/3.221bae2b.chunk.js": "/btc-lightning-faucet/static/js/3.221bae2b.chunk.js",
-    "static/js/3.221bae2b.chunk.js.map": "/btc-lightning-faucet/static/js/3.221bae2b.chunk.js.map",
+    "main.css": "/btc-lightning-faucet/static/css/main.3dec7530.chunk.css",
+    "main.js": "/btc-lightning-faucet/static/js/main.c4f975a9.chunk.js",
+    "main.js.map": "/btc-lightning-faucet/static/js/main.c4f975a9.chunk.js.map",
+    "runtime-main.js": "/btc-lightning-faucet/static/js/runtime-main.c519adb7.js",
+    "runtime-main.js.map": "/btc-lightning-faucet/static/js/runtime-main.c519adb7.js.map",
+    "static/js/2.cf101143.chunk.js": "/btc-lightning-faucet/static/js/2.cf101143.chunk.js",
+    "static/js/2.cf101143.chunk.js.map": "/btc-lightning-faucet/static/js/2.cf101143.chunk.js.map",
+    "static/js/3.900a0e75.chunk.js": "/btc-lightning-faucet/static/js/3.900a0e75.chunk.js",
+    "static/js/3.900a0e75.chunk.js.map": "/btc-lightning-faucet/static/js/3.900a0e75.chunk.js.map",
     "index.html": "/btc-lightning-faucet/index.html",
-    "static/css/main.21730999.chunk.css.map": "/btc-lightning-faucet/static/css/main.21730999.chunk.css.map",
-    "static/js/2.bb4edb59.chunk.js.LICENSE.txt": "/btc-lightning-faucet/static/js/2.bb4edb59.chunk.js.LICENSE.txt",
+    "static/css/main.3dec7530.chunk.css.map": "/btc-lightning-faucet/static/css/main.3dec7530.chunk.css.map",
+    "static/js/2.cf101143.chunk.js.LICENSE.txt": "/btc-lightning-faucet/static/js/2.cf101143.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/btc-lightning-faucet/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.81231d2c.js",
-    "static/js/2.bb4edb59.chunk.js",
-    "static/css/main.21730999.chunk.css",
-    "static/js/main.39e90f0a.chunk.js"
+    "static/js/runtime-main.c519adb7.js",
+    "static/js/2.cf101143.chunk.js",
+    "static/css/main.3dec7530.chunk.css",
+    "static/js/main.c4f975a9.chunk.js"
   ]
 }
