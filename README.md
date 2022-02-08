@@ -1,5 +1,5 @@
 # View the Project Here #
-https://wocketman0351.github.io/btc-lightning-faucet/
+https://wocketman0351.github.io/BTC-lightning-faucet/
 
 # Getting Started with Create React App
 
