@@ -4,6 +4,8 @@ import './App.css';
 import TextInput from './components/text-input.components';
 import CustomButton from './components/custom-button.component';
 
+// to update gh-pages, run "yarn build" followed by "yarn run deploy"
+
 class App extends Component {
   constructor() {
     super();
